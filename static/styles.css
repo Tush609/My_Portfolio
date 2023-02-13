@@ -1,0 +1,75 @@
+h3 {
+    text-align = left;
+}
+
+div.contact {
+    margin-left = auto;
+    margin-right = auto;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background: #848884;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+      height: 120%;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+
+}
+
+div.info {
+    text-align=center;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#team4 {
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #333;
+    color: white;
+    padding: 8px;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+
+}
+
+img {
+    height: 20%;
+    width: 20%;
+}

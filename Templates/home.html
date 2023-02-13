@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">About</a></li>
+        <li><a href="#about">My Projects</a></li>
+    </ul>
+</nav>
+{% endblock %}
+
+{% block welcome %}
+<center>
+    <div class="info">
+        <img src="./static/Me.jpeg" alt="My image">
+        <h1>
+            Welcome !<br>
+            I'm Tushar Garg
+        </h1>
+    </div>
+    <hr>
+    <div>
+        <h2>Human-Computer Interaction Project</h2>
+        <button id="team4">
+            <a id="link" href="https://sites.google.com/view/hci-team4/home">Project</a>
+        </button>
+    </div>
+</center>
+{% endblock %}
+
+{% block footer %}
+<footer>
+    <div>
+        <div>
+            <h3> Conatact me: tushg609@gmail.com </h3>
+        </div>
+
+        <div>
+            <h3> Instagram: tushg_01</h3>
+            <h3> Github: Tush609</h3>
+        </div>
+    </div>
+</footer>
+{% endblock %}
